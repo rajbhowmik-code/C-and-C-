@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "functions.h" // 👈 এই লাইনটাই দুটো ফাইলকে জোড়া লাগাচ্ছে!
+#include "../Function files/functions.h"
 
 int ly (int ty){ 
     if ((ty % 400 == 0) || (ty % 4 == 0 && ty % 100 != 0)){

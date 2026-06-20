@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "functions.h" // 👈 হেডার ফাইলের মাধ্যমে functions.c এর সাথে লিংক হলো
+#include "../Function files/functions.h"
 
 int main (){
     int td,tm,ty,bd,bm,by,d,m,y,pm,dim;
