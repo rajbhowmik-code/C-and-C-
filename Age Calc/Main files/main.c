@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "../Function files/functions.h"
+#include "../Header files/functions.h"
 
 int main (){
     char choice;
@@ -8,6 +8,7 @@ int main (){
     do {
         int td, tm, ty, bd, bm, by, d, m, y, pm, dim;
         int check_vd = 0;
+        printf ("\n This App was developed by me Raj Bhowmik Sust Swe 2025");
         
         while (check_vd == 0) {
             printf("\nEnter todays date (day/month/year)\n");
