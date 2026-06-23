@@ -1,1 +1,3 @@
-MAINICON ICON "myicon.ico"
+MAINICON ICON "myicon.ico" 
+// windres resource.rc -O coff -o resource.res Windows Resource Compiler  common object file format -o output resouce file create
+//gcc main.c "../Function files/functions.c" resource.res -o AgeCalculator.exe
