@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../Function files/functions.h"
+#include "../Header files/functions.h"
 
 int ly (int ty){  //leap year check
     if ((ty % 400 == 0) || (ty % 4 == 0 && ty % 100 != 0)){
